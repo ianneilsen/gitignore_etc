@@ -1,0 +1,22 @@
+*-
+*.swp
+*~
+*#
+tmp
+*.db
+*.bak
+*.save
+/httpd
+/letsencrypt/archive
+/letsencrypt/csr
+/letsencrypt/keys
+/letsencrypt/live
+/lvm/archive
+/lvm/backup
+/iptables/history
+/selinux/targeted
+
+# Track these in their own Git repos
+nginx
+httpd
+ssl
